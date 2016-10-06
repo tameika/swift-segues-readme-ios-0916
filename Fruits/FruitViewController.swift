@@ -26,7 +26,9 @@ class FruitViewController: UIViewController {
     }
 
     fileprivate func emojiToName(_ emoji: String) -> String {
+        
         switch emoji {
+            
         case "🍎":
             return "Apple"
         case "🍐":
